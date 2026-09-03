@@ -7,7 +7,7 @@ POLL_INTERVAL=2
 STUCK_TIME=4
 STUCK_COUNT=0
 LAST_LID=""
-LOG_FILE="/var/log/xhci_sleep_fixer.txt"
+LOG_FILE="/var/log/xhci_sleep_fixer.log"
 
 mkdir -p "$(dirname "$LOG_FILE")"
 touch "$LOG_FILE"
